@@ -1,0 +1,62 @@
+.flex-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+
+#temperature {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  
+
+}
+#degrees {
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+#temp-down, #temp-up {
+  background-color: #eb2ea3; /* Green */
+  border-radius: 50%;
+  border: 2px solid black;;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+
+}
+
+#extra-buttons {
+  align-items: center;
+}
+#temp-reset {
+  text-align: center;
+  background-color: aqua;
+}
+
+
+
+/* current usage colours */
+
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: black;
+}
+
+.high-usage {
+  color: red;
+}
+
